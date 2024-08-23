@@ -1,0 +1,13 @@
+ref_lat: 31.21993452
+ref_lon: 121.47991702
+residual_x: 0.164
+residual_y: 0.283
+odom_file_path: apps/odom
+
+topics:
+  odom:
+    - '/odom_track'
+    - '/odometry/gps'
+    - '/odometry/filtered_map'
+  gps:
+    - '/gps/left_fix'
